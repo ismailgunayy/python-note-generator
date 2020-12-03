@@ -20,11 +20,11 @@ pip install selenium
 ```
 Then, you must install the driver for your browser from [here](https://selenium-python.readthedocs.io/installation.html#drivers).
 
-Finally, make sure that driver you've downloaded is in your [PATH](https://gist.github.com/nex3/c395b2f8fd4b02068be37c961301caa7).
+Finally, make sure that the driver you've downloaded is in your [PATH](https://gist.github.com/nex3/c395b2f8fd4b02068be37c961301caa7).
 
 <br>
-## Notes
 
+## Notes
 - The program starts generating from `37Hz` due to the `Beep` function of `winsound`. <br> The notes that has lower frequency than `37Hz` are **not supported**.
   <br>
 - Normally, the frequencies of notes were decimal numbers. However, the `Beep` function again does not supports float numbers. That's why I set the frequencies as integers. Don't worry though, you will not hear the difference.
@@ -32,7 +32,6 @@ Finally, make sure that driver you've downloaded is in your [PATH](https://gist.
 <br>
 
 ## TODOs
-<hr>
 
   **The features are not ordered by priority. One may be removed or one may be added.**
 - [x] Scrape the data from web with `Selenium`
