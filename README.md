@@ -1,6 +1,5 @@
 # Python Note Generator
 
-<hr>
 
 I scraped the notes and their frequencies from the web.
 Used **Selenium** for this process in the `init.py`
@@ -9,7 +8,6 @@ You can find the frequencies and wave lengths of all the notes on
 https://pages.mtu.edu/~suits/notefreqs.html
 <br>
 ## Requirements
-<hr>
 
 If you **only** want to generate notes, you don't have to set anything up.
 `winsound` package is **already in** Python.
@@ -26,7 +24,6 @@ Finally, make sure that driver you've downloaded is in your [PATH](https://gist.
 
 <br>
 ## Notes
-<hr>
 
 - The program starts generating from `37Hz` due to the `Beep` function of `winsound`. <br> The notes that has lower frequency than `37Hz` are **not supported**.
   <br>
