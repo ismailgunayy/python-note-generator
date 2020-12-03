@@ -1,5 +1,6 @@
 from selenium import webdriver
 import pandas as pd
+import os
 from Note import Note
 
 
@@ -60,6 +61,7 @@ def formatNotes():
 
     csvFile.close()
     pyFile.close()
+    os.remove("Notes.csv")
 
 
 if __name__ == "__main__":
