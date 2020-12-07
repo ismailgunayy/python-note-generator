@@ -1,4 +1,4 @@
-from Note import Note
+from .NoteClass import Note
 
 DS1	 = Note('DS1', 38)
 E1	 = Note('E1', 41)
