@@ -9,7 +9,7 @@ https://pages.mtu.edu/~suits/notefreqs.html
 <br>
 ## Requirements
 
-If you **only** want to generate notes, you don't have to set anything up.
+If you **only** want to generate notes, you don't have to set anything up and run the `init.py` directly.
 `winsound` package is **already built-in** Python.
 
 **However**, if you want to see how the program scrapes the data, you will need to install this packages:
